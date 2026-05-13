@@ -3,7 +3,7 @@ function buatQR() {
 
     let doc = document.getElementById("doc").value;
 
-    let link = "https://smpn2sikur.github.io/tte-smpn2-sikur/?doc=" + doc;
+    let link = "https://smpnduasikur-creator.github.io/tte-smpn2-sikur//?doc=" + doc;
 
     new QRCode(document.getElementById("qrcode"), {
         text: link,
